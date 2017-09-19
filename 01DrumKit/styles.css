@@ -1,0 +1,10 @@
+.key{
+  border: 1px solid #000;
+  transition: all 0.07s ease;
+  width: 100px;
+}
+
+.playing{
+  transform: scale(1.1);
+  border-color: blue;
+}
