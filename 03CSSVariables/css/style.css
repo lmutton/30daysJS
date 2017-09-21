@@ -1,0 +1,34 @@
+:root{
+	--radius: 0px;
+	--height: 200px;
+	--width: 200px;
+	--color: #8e44ad;
+}
+
+body{
+ font-family: 'Roboto Condensed', sans-serif;
+ text-align: center;
+ background-color: #ecf0f1;
+ color: #212121;
+}
+h2{
+	margin-top: 50px;
+}
+.highlight{
+	color: var(--color);
+}
+.controlls{
+	margin: 50px auto;
+}
+input{
+	width: 100px;
+}
+
+.square{
+	border-radius: var(--radius);
+	width: var(--width);
+	height: var(--height);
+	background-color: var(--color);
+	margin: 100px auto;
+	
+}

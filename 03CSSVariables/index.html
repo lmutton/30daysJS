@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Update CSS with JS</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <h2>Using <span class="highlight">JavaScript</span> to update <span class="highlight">CSS</span> variables!</h2>
+<div class="controlls">
+	<label for="radius"> Radius</label>
+	<input type="range" name="radius" min="0" max="50" value="0" data-sizing="%">
+	<label for="height"> Height</label>
+	<input type="range" name="height" min="200" max="400" value="200" data-sizing="px">
+	<label for="width"> Width</label>
+	<input type="range" name="width" min="200" max="400" value="200" data-sizing="px">
+	<label for="color"> Color</label>
+	<input type="color" name="color" value="#8e44ad">
+</div>
+	
+<div class="square"></div>
+  
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
