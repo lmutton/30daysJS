@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+}
+.panels {
+	min-height: 100vh;
+	display: flex;
+	overflow: hidden;
+}
+
+.panel {
+	text-align: center;
+	align-items: center;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	flex-direction: column;
+	transition: flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.3s;
+	border: 1px solid #2c3e50;
+}
+
+.panel > * {
+	margin: 5px;
+	width: 100%;
+	transition: transform 0.5s;
+	flex: 1 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Sue Ellen Francisco', sans-serif;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+  font-size: 3em;
+	color: #ecf0f1;
+	
+	
+}
+
+
+.panel > * { 
+	transform: translateY(-100%);
+}
+.panel.open-active > * { 
+	transform: translateY(-40%); 
+}
+
+
+.two {
+	background-image: url("http://res.cloudinary.com/drwqdcmyx/image/upload/v1506955371/IMG_4043_cccnww.jpg");
+}
+.one {
+	background-image: url("http://res.cloudinary.com/drwqdcmyx/image/upload/v1506955371/IMG_3947_qczlrt.jpg");
+}
+
+.three {
+	background-image: url("http://res.cloudinary.com/drwqdcmyx/image/upload/v1506955371/IMG_4187_ohoikr.jpg");
+}
+
+.panel.open {
+	flex: 5;
+}
