@@ -1,0 +1,40 @@
+:root {
+	--color: #8e44ad;
+}
+
+body {
+	font-family: "Roboto Condensed", sans-serif;
+	text-align: center;
+	background-color: #ecf0f1;
+	color: #fff;
+	background: #2c3e50;
+}
+.btn {
+	font-family: "Roboto Condensed", sans-serif;
+	color: #2c3e50;
+	border: none;
+	padding: 10px;
+	width: 80px;
+}
+.btn:hover {
+	background: var(--color);
+	color: #fff;
+	border: none;
+}
+
+canvas {
+	border: 5px solid #34495e;
+	background: #fff;
+}
+
+.controlls {
+	margin: 50px;
+}
+
+input {
+	margin-right: 30px;
+}
+
+#pen-size {
+	width: 100px;
+}
