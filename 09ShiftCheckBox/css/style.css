@@ -1,0 +1,35 @@
+body{
+	background: #1abc9c;
+	color: #2c3e50;
+	font-family: sans-serif;
+}
+.inbox{
+	width: 300px;
+	border-radius: 5px;
+	margin: 50px auto;
+	background: #ecf0f1;
+	box-shadow: 8px 8px 1px #16a085;
+}
+.item{
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #bdc3c7; 
+}
+
+.item:last-child{
+	border-bottom: none;
+}
+
+input:checked + p {      
+      text-decoration: line-through;
+    }
+
+input[type="checkbox"] {
+      margin:20px;
+    }
+p {
+	margin: 0;
+  padding: 20px;
+  flex: 1;
+}
+
