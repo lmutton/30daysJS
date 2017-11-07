@@ -4,7 +4,7 @@ const penSize = document.querySelector("#pen-size");
 const clear = document.querySelector(".clear");
 const multi = document.querySelector(".multi");
 const ctx = canvas.getContext("2d");
-//const inputs = document.querySelectorAll('.controlls input');
+
 canvas.width = 600;
 canvas.height = 600;
 

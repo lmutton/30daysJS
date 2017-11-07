@@ -5,16 +5,18 @@
 body {
 	font-family: "Roboto Condensed", sans-serif;
 	text-align: center;
-	background-color: #ecf0f1;
 	color: #fff;
-	background: #2c3e50;
+	background: #ecf0f1;
 }
 .btn {
 	font-family: "Roboto Condensed", sans-serif;
-	color: #2c3e50;
+	color: #fff;
 	border: none;
-	padding: 10px;
+	border-radius: 3px;
+	padding: 8px;
 	width: 80px;
+	font-size: 1em;
+	background-color: #bdc3c7;
 }
 .btn:hover {
 	background: var(--color);
@@ -23,7 +25,7 @@ body {
 }
 
 canvas {
-	border: 5px solid #34495e;
+	border: 5px solid #bdc3c7;
 	background: #fff;
 }
 
@@ -37,4 +39,40 @@ input {
 
 #pen-size {
 	width: 100px;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  background:transparent;
+}
+
+input[type=range]::-moz-range-track {
+  height: 6px;
+  cursor: pointer;
+  background: rgba(189, 195, 199,0.6);
+  border-radius: 1.3px;
+}
+input[type=range]::-moz-range-thumb {  
+  height: 12px;
+  width: 12px;
+  border-radius: 50px;
+	border: none;
+  background: var(--color);
+  cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-runnable-track{
+	height: 6px;
+  cursor: pointer;
+  background: rgba(189, 195, 199,0.6);
+  border-radius: 1.3px;
+}
+
+input[type=range]::-webkit-slider-thumb{
+	height: 12px;
+  width: 12px;
+  border-radius: 50px;
+	border: none;
+  background: var(--color);
+  cursor: pointer;
 }
